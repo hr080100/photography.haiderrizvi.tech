@@ -1,0 +1,132 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.container .section
+{
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+}
+
+.container .section:nth-child(1)
+{
+    background: url("photos/1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(2)
+{
+    background: url("photos/2.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(3)
+{
+    background: url("photos/3.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(4)
+{
+    background: url("../photos/4.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(5)
+{
+    background: url("photos/5.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(6)
+{
+    background: url("../photos/6.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(7)
+{
+    background: url("photos/7.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section:nth-child(8)
+{
+    background: url("photos/8.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1440px)
+{
+    .container .section
+    {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+    .container .section
+    {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 748px)
+{
+    .container .section
+    {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    .container .section
+    {
+        height: 30vh;
+    }
+}
+
+body::-webkit-scrollbar
+{
+    width: 5px;
+}
+   
+body::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb
+{
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
