@@ -1,1 +1,2 @@
-# photography.haiderrizvi.tech
+# Haider Rizvi Photography
+https://photography.haiderrizvi.tech
