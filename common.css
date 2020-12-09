@@ -105,7 +105,8 @@ a
     position: fixed;
     left: 0;
     height: 100%;
-    top: -2.1vh;
+    top: 0vh;
+    margin: 0;
     width: 30%;
     display: flex;
     flex-direction: column;
