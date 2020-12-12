@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.container .section
+{
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: auto;
+    background: #00000000;
+}
+
+.container .section img
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+body::-webkit-scrollbar
+{
+    width: 0px;
+}
